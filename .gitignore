@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.build/
+
+# pytest
+.pytest_cache/
+
+# virtualenv
+.venv/
+
+# editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# env files
+.env
