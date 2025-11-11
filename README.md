@@ -51,7 +51,3 @@ git remote add origin <YOUR_REMOTE_URL>
 git branch -M main
 git push -u origin main
 ```
-
-備註：
-- 如果想把這個程式部署成公開的線上 API（例如 Render、Railway、Fly 或其他雲端供應商），可在 GitHub 建好 repo 後直接連結到這些平台以自動部署。Render/ Railway 通常會偵測到 `uvicorn` 並自動啟動服務，或你可以新增 `Procfile` / 部署設定。
-- 若需要我幫你加上 GitHub Actions 或示範 deploy 到某個平台（例如 Render），我可以幫忙設定。
